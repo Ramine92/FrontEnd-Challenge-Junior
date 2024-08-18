@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="Send-message">
+      
+  </div>
+  <div id="container">
+
+    <h2>
+        Contact Us
+    </h2>
+
+    <div id="First-Line">
+
+      <div id="First-Name">
+
+        <span>First-Name *</span> 
+        <input id="FirstName" type="text">
+        <span id="errorF"></span>
+
+      </div>
+
+      <div id="Last-Name">
+
+        <span>Last-Name *</span> 
+        <input id="LastName" type="text">
+        <span id="errorL"></span>
+
+      </div>
+
+
+
+    </div>
+
+    <div id="Second-Line">
+      
+      <div id="email">
+          <span>Email Address *</span>
+          <input type="text" id="Email-Address">
+          <span id="error-email"></span>
+
+
+      </div>
+
+    </div>
+
+    <span id="query-type">Query Type *</span>
+
+    <div id="radio-container">
+
+      <label class="radio-label">
+
+        <input type="radio" id="generalEnquiry" name="enquiry" value="general">
+        <span>General Enquiry</span>
+
+      </label>
+      <label class="radio-label">
+
+         <input type="radio" id="supportRequest" name="enquiry" value="support">
+         <span>Support Request</span>
+
+      </label>
+    </div>
+
+      <span id="error-query"></span>
+
+     <div id="message">
+      <span>Message *</span>
+      <input type="text" id="message-txt">
+      <span id="error-msg"></span>
+     </div>
+
+
+        <div id="Last-Line">
+            <div>
+
+              <input type="checkbox" id="last-checkbox">
+              <span>I consent to being contacted by the team *</span>
+
+            </div>
+            <span id="error-check"></span>
+        </div>
+
+        <div id="last">
+
+          <button id="submit-button">Submit</button>
+
+        </div>
+
+      
+
+
+
+
+
+     
+
+
+
+  </div>
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
