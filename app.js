@@ -70,7 +70,7 @@ button.addEventListener('click', () => {
         </div>`;
     } else {
         // Change border color of inputs
-        const inputs = document.querySelectorAll('input[type="text"], input[type="radio"], input[type="checkbox"]');
+        const inputs = document.querySelectorAll('input[type="text"], input[type="radio"], input[type="checkbox"], textarea');
         inputs.forEach(input => {
             input.style.border = '2px solid hsl(0, 66%, 54%)';
         });

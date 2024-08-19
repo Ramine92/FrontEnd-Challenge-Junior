@@ -1,4 +1,4 @@
-body{
+body {
   background-color: hsl(148, 38%, 91%);
   display: grid;
   place-content: center;
@@ -6,56 +6,66 @@ body{
   font-family: 'Karla', sans-serif;
   color: hsl(187, 24%, 22%);
 }
-#container{
+
+#container {
   width: 800px;
-  height:fit-content;
+  height: fit-content;
   background-color: white;
   border-radius: 15px;
   padding-bottom: 2rem;
 }
-#error-query{
+
+#error-query {
   font-size: 20px;
   margin-left: 40px;
 }
-#container h2{
+
+#container h2 {
   font-size: 2rem;
-  color:hsl(187, 24%, 22%);
+  color: hsl(187, 24%, 22%);
   margin-left: 1.3rem;
   margin-top: 2rem;
   font-weight: bold;
 }
-#query-type{
+
+#query-type {
   font-size: 20px;
   margin: 0px 40px;
 }
-#First-Name,#Last-Name{
+
+#First-Name, #Last-Name {
   display: grid;
   width: 307px;
   font-size: 20px;
-  padding: 10px  20px;
+  padding: 10px 20px;
   gap: 10px;
   border-radius: 10px;
 }
-#First-Line{
+
+#First-Line {
   margin-left: 20px;
   display: flex;
   gap: 20px;
 }
-#email{
+
+#email {
   display: grid;
   gap: 10px;
   font-size: 20px;
   margin-bottom: 0.6rem;
 }
-#Second-Line{
+
+#Second-Line {
   margin: 0px 40px;
 }
-#Email-Address{
-  padding: 10px  20px;
+
+#Email-Address {
+  padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
 }
-#radio-container{
+
+#radio-container {
   display: flex;
   gap: 10px;
   font-size: 20px;
@@ -63,14 +73,15 @@ body{
   margin-left: 40px;
   margin-bottom: 10px;
 }
-.radio-label{
 
+.radio-label {
   display: flex;
   align-items: center;
   padding: 10px 20px;
   border: 1px solid #ccc;
   border-radius: 20px;
 }
+
 .radio-label input[type="radio"] {
   margin-right: 10px;
   accent-color: hsl(169, 82%, 27%);
@@ -79,46 +90,60 @@ body{
 
 input[type="text"],
 input[type="radio"],
-input[type="checkbox"] {
+input[type="checkbox"],
+textarea {
   border: 2px solid hsl(148, 38%, 91%);
   border-radius: 10px;
   padding: 10px 20px;
   font-size: 20px;
-  transition: border-color 0.3s ease; 
+  transition: border-color 0.3s ease;
 }
 
-input[type="radio"]:focus,input[type="text"]:focus,input[type="checkbox"]:focus{
+input[type="radio"]:focus, input[type="text"]:focus, input[type="checkbox"]:focus, textarea:focus {
   border-color: hsl(169, 82%, 27%);
   outline: none;
 }
 
-
-
-.radio-label span{
+.radio-label span {
   color: hsl(187, 24%, 22%);
 }
-.border-click{
+
+.border-click {
   border-color: hsl(169, 82%, 27%);
 }
-#message{
-  display:grid;
+
+#message {
+  display: grid;
   font-size: 20px;
   gap: 10px;
   margin-left: 40px;
   margin-top: 1rem;
 }
-#message #message-txt{
+
+#message textarea {
   height: 100px;
   border-radius: 10px;
   font-size: 16px;
   margin-right: 35px;
+  padding: 10px 20px;
   resize: vertical;
+  border: 2px solid hsl(148, 38%, 91%);
+  transition: border-color 0.3s ease;
 }
-.errorcls{
+
+#fir
+
+#message textarea:focus {
+  border-color: hsl(169, 82%, 27%);
+  outline: none;
+}
+
+.errorcls {
   border-color: hsl(0, 66%, 54%);
   color: lightcoral;
 }
-#Last-Line{
+
+#Last-Line {
   margin-top: 1.5rem;
   margin-left: 40px;
   color: hsl(187, 24%, 22%);
@@ -127,21 +152,26 @@ input[type="radio"]:focus,input[type="text"]:focus,input[type="checkbox"]:focus{
   margin-bottom: 10px;
   gap: 10px;
 }
-#error-check{
+
+#error-check {
   font-size: 20px;
 }
+
 #Last-Line input[type="checkbox"] {
   margin-right: 10px;
   accent-color: hsl(169, 82%, 27%);
   transform: scale(1.5);
 }
-.greencolor{
-  background-color:  hsl(148, 38%, 91%);
+
+.greencolor {
+  background-color: hsl(148, 38%, 91%);
 }
-#Send-message{
+
+#Send-message {
   place-content: center;
 }
-#box-sent{
+
+#box-sent {
   width: fit-content;
   background-color: hsl(187, 24%, 22%);
   color: white;
@@ -150,19 +180,22 @@ input[type="radio"]:focus,input[type="text"]:focus,input[type="checkbox"]:focus{
   border-radius: 15px;
   padding: 20px 20px;
 }
-#firt-box{
+
+#firt-box {
   gap: 10px;
   display: flex;
 }
-#last button{
+
+#last button {
   margin-top: 50px;
   font-size: 1.2rem;
-  padding:  12px 320px;
+  padding: 12px 320px;
   color: white;
   background-color: hsl(169, 82%, 27%);
   margin-left: 40px;
   cursor: pointer;
-  }
-#last button:hover{
+}
+
+#last button:hover {
   background-color: rgb(10, 53, 10);
 }
